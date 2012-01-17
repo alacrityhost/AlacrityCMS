@@ -47,6 +47,10 @@ $route['news'] = 'news';
 // Default controller
 $route['default_controller'] = "pages/view";
 
+// Auth Routing
+$route['auth/(:any)'] = 'auth/$1';
+$route['auth'] = 'auth';
+
 // Catch all - make sure this is the LAST rule!
 $route['(:any)'] = 'pages/view/$1';
 
