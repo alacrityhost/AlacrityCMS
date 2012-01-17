@@ -1,0 +1,1 @@
+Success! News article added to the database!
