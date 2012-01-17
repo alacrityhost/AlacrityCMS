@@ -7,8 +7,8 @@
 | These details are used in emails sent by authentication library.
 |--------------------------------------------------------------------------
 */
-$config['website_name'] = 'Your project';
-$config['webmaster_email'] = 'webmaster@your-site.com';
+$config['website_name'] = 'AlacrityGsming.com';
+$config['webmaster_email'] = 'webmaster@AlacrityGaming.com';
 
 /*
 |--------------------------------------------------------------------------
@@ -19,7 +19,7 @@ $config['webmaster_email'] = 'webmaster@your-site.com';
 | 'phpass_hash_strength' = Password hash strength.
 |--------------------------------------------------------------------------
 */
-$config['phpass_hash_portable'] = FALSE;
+$config['phpass_hash_portable'] = TRUE;
 $config['phpass_hash_strength'] = 8;
 
 /*
@@ -46,9 +46,9 @@ $config['email_activation_expire'] = 60*60*24*2;
 $config['email_account_details'] = TRUE;
 $config['use_username'] = TRUE;
 
-$config['username_min_length'] = 4;
+$config['username_min_length'] = 6;
 $config['username_max_length'] = 20;
-$config['password_min_length'] = 4;
+$config['password_min_length'] = 8;
 $config['password_max_length'] = 20;
 
 /*
@@ -126,9 +126,9 @@ $config['captcha_case_sensitive'] = TRUE;
 | You can get reCAPTCHA keys by registering at http://recaptcha.net
 |--------------------------------------------------------------------------
 */
-$config['use_recaptcha'] = FALSE;
-$config['recaptcha_public_key'] = '';
-$config['recaptcha_private_key'] = '';
+$config['use_recaptcha'] = TRUE;
+$config['recaptcha_public_key'] = '6Lc9cswSAAAAABy9xsHrIZ4AUGpmeIy73mWHbLlT';
+$config['recaptcha_private_key'] = '6Lc9cswSAAAAANwDR7xZf1jrVO2thUz65XflR_Ri';
 
 /*
 |--------------------------------------------------------------------------
