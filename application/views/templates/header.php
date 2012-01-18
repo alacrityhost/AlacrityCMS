@@ -13,7 +13,7 @@
 		<header>
 			<div class="span-24">
 				<div class="span-24">
-					<img src="/public/images/assets/grid/span-24-rows-2.gif"/>
+					<img src="/public/images/AGbar.png" style="position:relative;left:-10px;"/>
 				</div>
 				<div class="span-8 first">
 					<img src="/public/images/assets/grid/span-8-rows-9.gif"/>
